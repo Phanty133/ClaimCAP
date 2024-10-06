@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #007bff, #00bfff);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+section {
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    border-bottom: 3px solid #00bfff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ul, ol {
+    margin: 20px 0;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+li ul {
+    margin-top: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00bfff;
+    text-decoration: underline;
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #ffdd57;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00bfff;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
